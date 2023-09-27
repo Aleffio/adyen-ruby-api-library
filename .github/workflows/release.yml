@@ -22,4 +22,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           develop-branch: main
-          version-files: package.json
+          version-files: lib/adyen/version.rb
