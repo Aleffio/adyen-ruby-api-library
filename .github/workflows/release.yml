@@ -20,6 +20,6 @@ jobs:
       - name: Prepare the next main release
         uses: aleffio/release-automation-action@v1.0.13
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ADYEN_AUTOMATION_BOT_ACCESS_TOKEN }}
           develop-branch: main
           version-files: lib/adyen/version.rb
