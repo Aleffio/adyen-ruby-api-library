@@ -17,4 +17,4 @@ jobs:
       release-title: Adyen Ruby API Library
       develop-branch: main
     secrets:
-      token: ${{ secrets.GITHUB_TOKEN }}
+      token: ${{ secrets.ADYEN_AUTOMATION_BOT_ACCESS_TOKEN }}
